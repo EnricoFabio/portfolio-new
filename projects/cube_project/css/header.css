@@ -1,0 +1,40 @@
+#header {
+    z-index: 10;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 7vh;
+}
+
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+.nav-links a {
+    color: #ffeec9;
+}
+
+/*---------Hero*/
+
+.hero {
+    min-height: 90vh;
+}
